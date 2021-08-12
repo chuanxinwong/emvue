@@ -1,0 +1,41 @@
+.AppDivOnec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .AppDivOnecBox {
+    opacity: 1;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.2em;
+  }
+
+  .AppDivOnecLoading {
+    opacity: 1;
+    transition-duration: 0.3s;
+    height: 15px;
+    width: 0;
+    overflow: hidden;
+    margin-left: 0;
+
+    span {
+      display: block;
+      font-size: 16px;
+      line-height: 1.2em;
+      width: 15px;
+      height: 15px;
+      overflow: hidden;
+      box-sizing: border-box;
+      border-radius: 50%;
+      border: 2px solid #e73d4d;
+      border-top-color: transparent;
+      border-bottom-color: transparent;
+    }
+  }
+
+  .showLoading {
+    width: 15px !important;
+    margin-left: 10px !important;
+    // opacity: 0.8;
+  }
+}
