@@ -1,12 +1,12 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import account from "./account";
+import home from "./home";
 
 Vue.use(VueRouter);
 
 const routes = [
-  ...account,
+  ...home,
 ]
 
 const router = new VueRouter({

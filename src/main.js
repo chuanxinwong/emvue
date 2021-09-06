@@ -1,11 +1,15 @@
 import Vue from 'vue';
+import ElementUI from 'element-ui';
+// import { Button, Select } from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import components from "./components";
 
 
-Vue.use(components);
+Vue.use(ElementUI);
+// Vue.component(Button.name, Button);
 
 Vue.config.productionTip = false;
 

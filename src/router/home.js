@@ -24,4 +24,12 @@ export default [
     },
     component: () => import("@/views/api/index.vue"),
   },
+  {
+    path: "/list",
+    meta: {
+      title: "list",
+      order: 0,
+    },
+    component: () => import("@/views/list/index.vue"),
+  },
 ];
